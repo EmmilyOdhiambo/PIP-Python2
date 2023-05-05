@@ -25,10 +25,8 @@ print(longest_word(["Akirachix","students","stephanie","developer"]))
 #  distinct words in sorted form (alphanumerically).
 words = input("hello emmily,emmily how are you: ")
 
-word_list = words.split(",")
-
-my_words = (set(word_list))
-print(", ".join(my_words))
+my_list = words.split(",")
+print(", ".join(my_list))
 
 #Write a Python function that takes two lists and returns True if they have at least one common member.
 list1 = ["emmie",24,2002,"akirachix"]
